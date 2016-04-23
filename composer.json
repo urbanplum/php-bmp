@@ -1,0 +1,38 @@
+{
+    "name": "urbanplum/php-bmp",
+    "description": "BMP image support for PHP",
+    "keywords": [
+        "urbanplum",
+        "php-bmp",
+        "bmp",
+        "bitmap"
+    ],
+    "homepage": "https://github.com/urbanplum/php-bmp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@urbanplum.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "5.*",
+        "squizlabs/php_codesniffer": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Urbanplum\\PhpBmp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Urbanplum\\PhpBmp\\Test\\": "tests/src",
+            "Urbanplum\\PhpBmp\\Test\\Unit\\": "tests/unit",
+            "Urbanplum\\PhpBmp\\Test\\Integration\\": "tests/integration"
+        }
+    }
+}
