@@ -1,6 +1,6 @@
 # Change Log
 
-All Notable changes to `php-bmp` will be documented in this file
+All Notable changes to `bmp` will be documented in this file
 
 ## [Version] - YYYY-MM-DD
 
