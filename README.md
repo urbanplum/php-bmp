@@ -19,8 +19,8 @@ $ composer require urbanplum/php-bmp
 ## Usage
 
 ``` php
-$phpBmp = new Urbanplum\PhpBmp\PhpBmp();
-$image = $phpBmp->create('/path/to/file.bmp');
+$bmp = new Urbanplum\Bmp\Bmp();
+$resource = $bmp->create('/path/to/file.bmp');
 ```
 
 ## Change log

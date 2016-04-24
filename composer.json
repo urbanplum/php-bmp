@@ -25,14 +25,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Urbanplum\\PhpBmp\\": "src"
+            "Urbanplum\\Bmp\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Urbanplum\\PhpBmp\\Test\\": "tests/src",
-            "Urbanplum\\PhpBmp\\Test\\Unit\\": "tests/unit",
-            "Urbanplum\\PhpBmp\\Test\\Integration\\": "tests/integration"
+            "Urbanplum\\Bmp\\Test\\": "tests/src",
+            "Urbanplum\\Bmp\\Test\\Unit\\": "tests/unit",
+            "Urbanplum\\Bmp\\Test\\Integration\\": "tests/integration"
         }
     }
 }

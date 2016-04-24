@@ -10,9 +10,9 @@
  * @link https://github.com/urbanplum/php-bmp
  */
 
-namespace Urbanplum\PhpBmp;
+namespace Urbanplum\Bmp;
 
-class PhpBmp
+class Bmp
 {
     /**
      * @param string $filePath
