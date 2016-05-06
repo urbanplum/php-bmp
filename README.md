@@ -2,9 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/urbanplum/bmp.svg?style=flat-square)](https://packagist.org/packages/urbanplum/bmp)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/urbanplum/php-bmp/master.svg?style=flat-square)](https://travis-ci.org/urbanplum/php-bmp)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/urbanplum/php-bmp.svg?style=flat-square)](https://scrutinizer-ci.com/g/urbanplum/php-bmp/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/urbanplum/php-bmp.svg?style=flat-square)](https://scrutinizer-ci.com/g/urbanplum/php-bmp)
 [![Total Downloads](https://img.shields.io/packagist/dt/urbanplum/bmp.svg?style=flat-square)](https://packagist.org/packages/urbanplum/bmp)
 
 BMP image support for PHP. Found on the net and packaged here for easy consumption.
@@ -22,20 +19,6 @@ $ composer require urbanplum/bmp
 $bmp = new Urbanplum\Bmp\Bmp();
 $resource = $bmp->create('/path/to/file.bmp');
 ```
-
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Testing
-
-``` bash
-$ make test
-```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
