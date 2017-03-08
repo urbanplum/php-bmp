@@ -16,8 +16,22 @@ $ composer require urbanplum/bmp
 ## Usage
 
 ``` php
+require sprintf('%s/../vendor/autoload.php', __DIR__);
+
 $bmp = new Urbanplum\Bmp\Bmp();
-$resource = $bmp->create('/path/to/file.bmp');
+
+// creating a GD resource from a file
+$resource = $bmp->createFromFile('/path/to/file.bmp');
+
+// creating a GD resource from a string (e.g. from DB, S3, etc.)
+$resource = $bmp->createFromString($bitmapString);
+
+// output image to a browser
+header('Content-Type: image/jpeg');
+imagejpeg($resource);
+
+// clean up
+imagedestroy($resource);
 ```
 
 ## Credits
