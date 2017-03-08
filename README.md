@@ -4,7 +4,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/urbanplum/bmp.svg?style=flat-square)](https://packagist.org/packages/urbanplum/bmp)
 
-BMP image support for PHP. Found on the net and packaged here for easy consumption.
+Adds BMP image support for PHP's GD functionality.
 ## Install
 
 Via Composer
