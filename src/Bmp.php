@@ -12,6 +12,7 @@
 
 namespace Urbanplum\Bmp;
 
+use Urbanplum\Bmp\Reader\ReaderString;
 use Urbanplum\Bmp\Reader\ReaderFilesystem;
 use Urbanplum\Bmp\Reader\ReaderInterface;
 use Urbanplum\Bmp\Parser\Parser;
@@ -26,6 +27,18 @@ class Bmp
     {
         $reader = new ReaderFilesystem();
         $reader->setFilepath($filepath);
+
+        return $this->create($reader);
+    }
+
+    /**
+     * @param string $string
+     * @return resource
+     */
+    public function createFromString($string)
+    {
+        $reader = new ReaderString();
+        $reader->setString($string);
 
         return $this->create($reader);
     }
